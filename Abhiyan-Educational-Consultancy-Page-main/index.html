@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo1.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Abhiyan Educational Consultancy - Nepal</title>
+</head>
+<body>
+    <div class="info-ls">
+        <a href="https://wa.me/9779808899111" target="_blank" aria-label="Chat on WhatsApp">
+            <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN" alt="WhatsApp" class="whatsapp">
+        </a>
+        <button class="number-button" onclick="location.href='tel:+9779808899111'" aria-label="Call +977 9808899111">+977 9808899111</button>
+    </div>
+    
+    <div class="banner" id="home">
+        <div class="banner">
+            <div class="nav-bar">
+                <img src="logo1.png" alt="Abhiyan Educational Consultancy Logo" class="logo">
+                <div class="nav-tabs">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="check-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li>
+                            <a href="#home" class="nav-opt">HOME</a>
+                            <a href="#about" class="nav-opt">ABOUT</a>
+                            <a href="#services" class="nav-opt">SERVICES</a>
+                            <a href="#courses" class="nav-opt">COURSES</a>
+                            <a href="#study-abroad" class="nav-opt">STUDY ABROAD</a>
+                            <a href="#contact" class="nav-opt">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <button id="user-menu-btn" class="user-menu-btn" aria-label="User menu" title="Menu"><span class="bars"></span></button>
+            </div>
+        <div class="information">
+            <div class="text-info">
+                <h2>Your Trusted Partner for<br>
+                Study Abroad from<br>Nepal</h2>
+                <p class="p-text">
+                    Abhiyan Educational Consultancy is Nepal's premier education consultancy based in Gaur, Madhesh Pradesh. We guide Nepalese students to achieve their dreams of studying at top universities in Australia, Canada, USA, UK, and beyond. With personalized counseling, visa assistance, and scholarship guidance, we transform aspirations into reality.
+                </p>
+            </div>
+            <div class="banner-poster">
+    <div class="reg-form">
+        <h3 class="form-head">Request A Free Consultation</h3>
+
+        <!-- Country Dropdown -->
+        <select id="interested-country" name="interested-country" required>
+            <option value="" disabled selected>Select Country</option>
+            <option>Australia</option>
+            <option>Canada</option>
+            <option>USA</option>
+            <option>United Kingdom</option>
+            <option>Germany</option>
+            <option>India</option>
+            <option>Nepal</option>
+            <option>Ireland</option>
+            <option>Japan</option>
+            <option>Singapore</option>
+            <option>Others</option>
+        </select>
+
+        <!-- Course Dropdown -->
+        <select id="interested-course" name="interested-course" required>
+            <option value="" disabled selected>Select Course</option>
+            <option>Computer Science</option>
+            <option>Information Science</option>
+            <option>Electronics and Communication</option>
+            <option>Artificial Intelligence and Machine Learning</option>
+            <option>Artificial Intelligence and Data Science</option>
+            <option>Computer Science (AIML)</option>
+            <option>Computer Science (Data Science)</option>
+            <option>Others</option>
+        </select>
+
+        <!-- College Dropdown (populated dynamically) -->
+        <select id="interested-college" name="interested-college" required>
+            <option value="" disabled selected>Select College</option>
+        </select>
+
+        <input id="consult-name" type="text" placeholder="Your Name" required>
+        <div class="phone-group">
+            <span class="flag" id="flag">🇳🇵</span>
+            <span class="dial-code" id="dial-code">+977</span>
+            <input type="tel" id="phone-number" placeholder="Phone Number" required>
+        </div>
+        <input id="consult-email" type="email" placeholder="Email Address" required>
+        <button id="submit-consult" class="submit-button">GET STARTED</button>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    <div class="about-1" id="about">
+        <div class="abt1-text">
+            <h5>Welcome to</h5>
+            <h1 class="name">ABHIYAN EDUCATIONAL CONSULTANCY</h1>
+            <p class="abt-paragraphtext">
+                Located in Gaur, Madhesh Pradesh, Abhiyan Educational Consultancy is a leading education consultancy dedicated to empowering Nepalese students to pursue their undergraduate and postgraduate studies at prestigious institutions worldwide.<br><br>
+                We understand the unique challenges faced by students from Nepal and offer comprehensive services including university selection, application assistance, IELTS/TOEFL preparation, visa processing, scholarship guidance, and pre-departure orientation. Our experienced counselors are committed to ensuring you choose the right academic path that aligns with your career goals without compromising your aspirations.<br><br>
+                With strong partnerships with top universities in Australia, Canada, USA, UK, and other leading destinations, we provide transparent guidance and continuous support throughout your study abroad journey.
+            </p>
+        </div>
+        <div class="abt1-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPaNdVxeyW7eWe1SVIX1g5wSrc3WUselJ6wQ&s" alt="Students studying abroad">
+        </div>
+    </div>
+
+    <div class="destinations" id="study-abroad">
+        <div class="des-info">
+            <div class="des-head">
+                <h1 class="h1-des">Popular Study Destinations for Nepalese Students</h1>
+                <p class="p-des">Explore Top Countries • Find Your Dream University • Build Your Future</p>
+            </div>
+            <div class="card">
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?q=80&w=600&auto=format&fit=crop" alt="Australia" class="des-images">
+                    <h4 class="des-text">AUSTRALIA</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=600&auto=format&fit=crop" alt="Canada" class="des-images">
+                    <h4 class="des-text">CANADA</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=600&q=80" alt="USA" class="des-images">
+                    <h4 class="des-text">USA</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80" alt="UK" class="des-images">
+                    <h4 class="des-text">UNITED KINGDOM</h4>
+                </div>
+                <div class="card1">
+    <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=600&q=80" alt="Nepal" class="des-images">
+    <h4 class="des-text">NEPAL</h4>
+</div>
+
+<!-- NEW: Ireland -->
+<div class="card1">
+    <img src="https://as2.ftcdn.net/jpg/01/32/14/63/1000_F_132146369_Wrr6A576ci1lXXSwpUQXZhkIk686gma3.jpg" alt="Ireland" class="des-images">
+    <h4 class="des-text">IRELAND</h4>
+</div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80" alt="Singapore" class="des-images">
+                    <h4 class="des-text">SINGAPORE</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=600&auto=format&fit=crop" alt="India" class="des-images">
+                    <h4 class="des-text">INDIA</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=600&q=80" alt="Germany" class="des-images">
+                    <h4 class="des-text">GERMANY</h4>
+                </div>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=600&auto=format&fit=crop" alt="Japan" class="des-images">
+                    <h4 class="des-text">JAPAN</h4>
+                </div>
+            </div>
+            <div class="des-footer">
+                <div class="foot-card1-purple">
+                    <h2 class="foot-info">15+</h2>
+                    <h4 class="foot-text">Years of Excellence</h4>
+                </div>
+                <div class="foot-card1-purple">
+                    <h2 class="foot-info">5000+</h2>
+                    <h4 class="foot-text">Students Counselled</h4>
+                </div>
+                <div class="foot-card1-purple">
+                    <h2 class="foot-info">98%</h2>
+                    <h4 class="foot-text">Visa Success Rate</h4>
+                </div>
+                <div class="foot-card1-purple">
+                    <h2 class="foot-info">200+</h2>
+                    <h4 class="foot-text">University Partnerships</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="students" id="services">
+        <h1 class="fact-head">OUR SUCCESS STORIES</h1>
+        <h3>Meet Students Who Achieved Their Dreams With Abhiyan</h3>
+        <div class="image-container">
+            <div class="stud-card">
+                <div class="photo-div">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop" alt="Student" class="image-stud">
+                </div>
+                <div class="stud-text">
+                    <h3>Arjun Karki</h3>
+                    <p class="text-div">Artificial Intelligence and Machine Learning<br><b>Dublin City University, Ireland</b><br>"The guidance I received was exceptional!"</p>
+                </div>
+            </div>
+
+            <div class="stud-card">
+                <div class="photo-div">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop" alt="Student" class="image-stud">
+                </div>
+                <div class="stud-text">
+                    <h3>Sneha Adhikari</h3>
+                    <p class="text-div">Information Science<br><b>Seneca College, Canada</b><br>"Abhiyan made my dream come true!"</p>
+                </div>
+            </div>
+
+            <div class="stud-card">
+                <div class="photo-div">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop" alt="Student" class="image-stud">
+                </div>
+                <div class="stud-text">
+                    <h3>Ritesh Shrestha</h3>
+                    <p class="text-div">Electronics and Communication<br><b>CMR Institute of Technology, Bengaluru</b><br>"Professional and supportive team!"</p>
+                </div>
+            </div>
+
+            <div class="stud-card">
+                <div class="photo-div">
+                    <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=400&auto=format&fit=crop" alt="Student" class="image-stud">
+                </div>
+                <div class="stud-text">
+                    <h3>Manisha Rai</h3>
+                    <p class="text-div">Artificial Intelligence and Data Science<br><b>PSB Academy, Singapore</b><br>"Smooth process from counseling to visa!"</p>
+                </div>
+            </div>
+
+            <div class="stud-card">
+                <div class="photo-div">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop" alt="Student" class="image-stud">
+                </div>
+                <div class="stud-text">
+                    <h3>Nabin Tamang</h3>
+                    <p class="text-div">Computer Science (Data Science)<br><b>Kathmandu University, Nepal</b><br>"Great mentoring and application support!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fact-container">
+        <h1 class="fact-head">WHY CHOOSE ABHIYAN EDUCATIONAL CONSULTANCY</h1>
+        <h3 style="text-align: center; color: #666; margin-top: -20px;">Facts That Make Us Nepal's Most Trusted Study Abroad Partner</h3>
+        <div class="facts-section-row1">
+            <div class="facts">
+                <i class="fa-solid fa-user-tie fact-icon"></i>
+                <h4>Expert Counselors</h4>
+                <p class="fact-para">Our team consists of certified education counselors with deep knowledge of international universities and their admission requirements. We provide personalized guidance tailored to each student's profile.</p>
+            </div>
+            <div class="facts">
+                <i class="fa-solid fa-handshake fact-icon"></i>
+                <h4>Strong University Partnerships</h4>
+                <p class="fact-para">With 15+ years of experience, we have established strong relationships with over 200 top universities across Australia, Canada, USA, UK, and other leading destinations.</p>
+            </div>
+            <div class="facts">
+                <i class="fa-solid fa-graduation-cap fact-icon"></i>
+                <h4>Comprehensive Test Preparation</h4>
+                <p class="fact-para">We offer specialized coaching for IELTS, TOEFL, PTE, SAT, GRE, and GMAT with experienced instructors and proven study materials to help you achieve your target scores.</p>
+            </div>
+        </div>
+        <div class="facts-section-row2">
+            <div class="facts">
+                <i class="fa-solid fa-trophy fact-icon"></i>
+                <h4>Scholarship Assistance</h4>
+                <p class="fact-para">We help eligible students identify and apply for scholarships and financial aid opportunities, making international education more affordable for Nepalese families.</p>
+            </div>
+            <div class="facts">
+                <i class="fa-solid fa-passport fact-icon"></i>
+                <h4>Visa Support & Documentation</h4>
+                <p class="fact-para">Our visa experts guide you through every step of the visa application process with a 98% success rate. We provide complete documentation support and interview preparation.</p>
+            </div>
+            <div class="facts">
+                <i class="fa-solid fa-headset fact-icon"></i>
+                <h4>Pre & Post-Departure Support</h4>
+                <p class="fact-para">We offer pre-departure orientation sessions covering accommodation, banking, travel arrangements, and cultural adaptation. Our support continues even after you reach your destination.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="div-colleges" id="courses">
+        <div class="des-info">
+            <div class="cinfo-text">
+                <h1>OUR PARTNER UNIVERSITIES</h1>
+                <p style="margin-top: 10px; color: #666;">We collaborate with prestigious institutions worldwide</p>
+            </div>
+            <div class="colleges-logo">
+                <img src="https://campus2college.com/wp-content/uploads/2024/06/rvcollegelogo.png" alt="University of Melbourne" class="college-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOPyBSOoJmuslDx8HtHhegMmduX0DIPha0A&s" alt="University of Toronto" class="college-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0OxWJg7-82J3B8jMX8KcYqlDKD3QkyhI9bQfYTfvfpU-xjr2MZsKUKb63Kn5z5buTEI&usqp=CAU" alt="MIT" class="college-image">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/BMS_College_of_Engineering.svg/1200px-BMS_College_of_Engineering.svg.png" alt="Stanford University" class="college-image">
+                <img src="https://www.idea.int/sites/default/files/partners/kathmandu%20university.png" alt="University of Oxford" class="college-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Na8F1_MDAIZuVz1d_FJEsI_Ll2knFkr2JA&s" alt="University of Sydney" class="college-image">
+                <img src="https://onesim-production.s3.ap-southeast-1.amazonaws.com/onesim/media/about-sim-who-we-are/sim-logo-full-colour.jpg?ext=.jpg" alt="University of Sydney" class="college-image">
+                <img src="https://www.sophia.ac.jp/assets/uploads/2022/11/vi_3-1024x576.png" alt="University of Sydney" class="college-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer" id="contact">
+        <div class="footer-contents">
+            <div class="top-courses">
+                <h4>CONTACT US</h4>
+                <p style="line-height: 28px; margin-top: 10px;">
+                    <i class="fa-solid fa-location-dot"></i> Near Rice Mill Field, Gaur-02<br>
+                    Madhesh Pradesh, Nepal-44500<br><br>
+                    <i class="fa-solid fa-phone"></i> +977 9808899111<br><br>
+                    <i class="fa-solid fa-envelope"></i> abhiyanec@gmail.com
+                </p>
+            </div>
+            <div class="top-courses">
+                <h4>OFFICE HOURS</h4>
+                <p style="line-height: 28px; margin-top: 10px;">
+                    <b>Sunday - Friday:</b><br>
+                    10:00 AM - 6:00 PM<br><br>
+                    <b>Saturday:</b><br>
+                    10:00 AM - 4:00 PM<br><br>
+                    <b>Walk-ins Welcome!</b><br>
+                    Or Book an Appointment
+                </p>
+            </div>
+        </div>
+        <div class="self-txt">
+            <p>Connect with us on social media</p>
+            <div class="social-media" style="margin-top: 15px;">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p style="margin-top: 25px;">© 2024 Abhiyan Educational Consultancy. All Rights Reserved.</p>
+            <p style="margin-top: 10px;">Designed and Developed By <a href="#">Aaditya Gupta</a></p>
+        </div>
+    </div>
+    <!-- Account Access Section -->
+    <section id="auth-section" class="auth-section">
+      <div class="auth-card">
+        <h2 class="auth-title">Access Your Account</h2>
+        <p class="auth-desc">Login or create your account to continue your study abroad journey.</p>
+
+        <div class="auth-tabs auth-tabs-inline">
+          <button class="auth-tab active" data-tab="login-panel">Login</button>
+          <button class="auth-tab" data-tab="signup-panel">Sign Up</button>
+        </div>
+
+        <!-- LOGIN PANEL -->
+        <div id="login-panel" class="auth-panel">
+          <div class="auth-methods">
+            <button id="login-google" class="auth-btn primary">Continue with Google</button>
+
+            <div class="divider"><span>OR</span></div>
+
+            <label class="auth-label">Email</label>
+            <input id="login-email" type="email" placeholder="you@example.com" />
+            <label class="auth-label">Password</label>
+            <input id="login-password" type="password" placeholder="Your password" />
+            <button id="login-submit" class="auth-btn">Login</button>
+          </div>
+        </div>
+
+        <!-- SIGNUP PANEL -->
+        <div id="signup-panel" class="auth-panel hidden">
+          <div class="auth-methods">
+            <button id="signup-google" class="auth-btn primary">Sign up with Google</button>
+
+            <div class="divider"><span>OR</span></div>
+
+            <label class="auth-label">Email</label>
+            <input id="su-email" type="email" placeholder="you@example.com" />
+            <label class="auth-label">Password</label>
+            <input id="su-password" type="password" placeholder="Create a password" />
+            <label class="auth-label">Confirm Password</label>
+            <input id="su-password2" type="password" placeholder="Re-enter password" />
+            <button id="signup-submit" class="auth-btn">Create Account</button>
+          </div>
+        </div>
+
+        <div class="auth-consent"><label><input id="section-consent" type="checkbox" checked /> I agree to be contacted regarding my enquiry.</label></div>
+        <p id="section-error" class="auth-error" role="alert" aria-live="assertive"></p>
+      </div>
+    </section>
+
+    <script type="module">
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js';
+      import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js';
+      import { getFirestore, doc, setDoc, serverTimestamp, addDoc, collection } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
+      import { firebaseConfig } from './firebase-config.js';
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      const db = getFirestore(app);
+      const CONTINUE_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') ? 'http://localhost:8000' : window.location.origin;
+
+      const section = document.getElementById('auth-section');
+      // User side panel elements
+      const userBtn = document.getElementById('user-menu-btn');
+      const userOverlay = document.getElementById('user-panel-overlay');
+      const userPanel = document.getElementById('user-panel');
+      const userAvatar = document.getElementById('user-avatar');
+      const userNameEl = document.getElementById('user-name');
+      const userEmailEl = document.getElementById('user-email');
+      const userPhotoInput = document.getElementById('user-photo-input');
+      // Default avatar on initial load
+      if (userAvatar && !userAvatar.getAttribute('src')) {
+        userAvatar.src = 'https://api.dicebear.com/7.x/initials/svg?seed=Guest';
+      }
+      const logoutBtn = document.getElementById('logout-btn');
+      const tabs = document.querySelectorAll('#auth-section .auth-tab');
+      const loginPanel = document.getElementById('login-panel');
+      const signupPanel = document.getElementById('signup-panel');
+
+      const btnLoginGoogle = document.getElementById('login-google');
+      const loginEmail = document.getElementById('login-email');
+      const loginPassword = document.getElementById('login-password');
+      const btnLoginSubmit = document.getElementById('login-submit');
+
+      const btnSignupGoogle = document.getElementById('signup-google');
+      const suEmail = document.getElementById('su-email');
+      const suPassword = document.getElementById('su-password');
+      const suPassword2 = document.getElementById('su-password2');
+      const btnSignupSubmit = document.getElementById('signup-submit');
+      const consentBox = document.getElementById('section-consent');
+      const err = document.getElementById('section-error');
+      const consultBtn = document.getElementById('submit-consult');
+      const consultName = document.getElementById('consult-name');
+      const consultEmail = document.getElementById('consult-email');
+      const consultPhone = document.getElementById('phone-number');
+      const consultCountry = document.getElementById('interested-country');
+      const consultCourse = document.getElementById('interested-course');
+      const consultCollege = document.getElementById('interested-college');
+
+      function showError(m){ err.textContent = m; }
+      function clearError(){ err.textContent = ''; }
+      function openSection(){ section.classList.add('open'); }
+      function closeSection(){ section.classList.remove('open'); }
+
+      // Tabs
+      tabs.forEach(t => t.addEventListener('click', () => {
+        tabs.forEach(b => b.classList.remove('active'));
+        t.classList.add('active');
+        const id = t.dataset.tab;
+        loginPanel.classList.toggle('hidden', id !== 'login-panel');
+        signupPanel.classList.toggle('hidden', id !== 'signup-panel');
+      }));
+
+      // Auth state controls visibility (auto-open when not signed in)
+      onAuthStateChanged(auth, async (user) => {
+        if (user) {
+          // upsert minimal lead
+          const lref = doc(db, 'leads', user.uid);
+          await setDoc(lref, {
+            uid: user.uid,
+            email: user.email || null,
+            phoneNumber: user.phoneNumber || null,
+            consent: !!consentBox.checked,
+            last_seen: serverTimestamp()
+          }, { merge: true });
+          closeSection();
+          // Show user menu button and populate panel
+          if (userBtn) userBtn.style.display = 'flex';
+          if (userNameEl) userNameEl.textContent = user.displayName || 'User';
+          if (userEmailEl) userEmailEl.textContent = user.email || '';
+          if (userAvatar) {
+            if (user.photoURL) userAvatar.src = user.photoURL;
+            else userAvatar.src = 'https://api.dicebear.com/7.x/initials/svg?seed=' + encodeURIComponent(user.email || 'User');
+          }
+          if (pendingConsult) {
+            try { await submitConsult(pendingConsult); showToast('Request submitted'); } catch(e) { showToast('Failed to submit request'); }
+            pendingConsult = null;
+          }
+        } else {
+          // Mandatory auth: always show the auth section until user signs in
+          openSection();
+          // Keep the user button visible even when signed out (acts as Login entry)
+          if (userBtn) userBtn.style.display = 'flex';
+          if (userOverlay) userOverlay.classList.remove('open');
+          if (userPanel) userPanel.classList.remove('open');
+          if (userAvatar) userAvatar.src = 'https://api.dicebear.com/7.x/initials/svg?seed=Guest';
+        }
+      });
+
+      // Gate navbar links behind auth and navigate after success
+      let pendingHash = null;
+      function gateLink(a){
+        a?.addEventListener('click', (e) => {
+          const href = a.getAttribute('href') || '';
+          if (href.startsWith('#')) {
+            if (!auth.currentUser) {
+              e.preventDefault();
+              pendingHash = href;
+              openSection();
+            }
+          }
+        });
+      }
+      document.querySelectorAll('.nav-opt').forEach(gateLink);
+
+      // Gate contact links and any mail/phone/whatsapp triggers
+      function gateExternal(a){
+        a?.addEventListener('click', (e) => {
+          if (!auth.currentUser) {
+            e.preventDefault();
+            openSection();
+          }
+        });
+      }
+      document.querySelectorAll('a[href^="mailto:"], a[href^="tel:"], a[href*="wa.me"]').forEach(gateExternal);
+      // Also gate any in-page anchors that might exist outside navbar
+      document.querySelectorAll('a[href^="#"]').forEach(gateLink);
+
+      // Handle Google redirect result if any
+      try {
+        const redirectRes = await getRedirectResult(auth);
+        if (redirectRes && redirectRes.user) {
+          handlePostLoginNavigate();
+          closeSection();
+        }
+      } catch {}
+
+      // Login with Google
+      btnLoginGoogle?.addEventListener('click', async () => {
+        clearError();
+        const provider = new GoogleAuthProvider();
+        try { provider.setCustomParameters({ prompt: 'select_account' }); } catch {}
+        try {
+          const res = await signInWithPopup(auth, provider);
+          if (res.user) { handlePostLoginNavigate(); closeSection(); }
+        } catch (err) {
+          if (err?.code === 'auth/popup-blocked') {
+            showError('Popup blocked. Please allow popups for this site and try again.');
+          } else if (err?.code === 'auth/popup-closed-by-user') {
+            showError('Popup closed before completing sign in.');
+          } else {
+            showError(err.message);
+          }
+        }
+      });
+
+      // Login with Email/Password
+      btnLoginSubmit?.addEventListener('click', async () => {
+        clearError();
+        const email = (loginEmail?.value || '').trim();
+        const pass = (loginPassword?.value || '').trim();
+        if (!email || !pass) return showError('Enter email and password');
+        try {
+          const cred = await signInWithEmailAndPassword(auth, email, pass);
+          showToast('Logged in successfully');
+          handlePostLoginNavigate();
+          closeSection();
+        } catch(e){ showError(e.message); }
+      });
+
+      // Sign up with Email/Password
+      btnSignupSubmit?.addEventListener('click', async () => {
+        clearError();
+        const email = (suEmail?.value || '').trim();
+        const pass = (suPassword?.value || '').trim();
+        const pass2 = (suPassword2?.value || '').trim();
+        if (!email || !pass || !pass2) return showError('Fill all fields');
+        if (pass.length < 6) return showError('Password must be at least 6 characters');
+        if (pass !== pass2) return showError('Passwords do not match');
+        try {
+          const cred = await createUserWithEmailAndPassword(auth, email, pass);
+          try {
+            await sendEmailVerification(cred.user, { url: CONTINUE_URL });
+          } catch (ve) {
+            showError(ve.message);
+          }
+          // Store user registration
+          try {
+            await addDoc(collection(db, 'users_registration'), {
+              uid: cred.user.uid,
+              email: cred.user.email || email,
+              method: 'email_password',
+              consent: !!consentBox.checked,
+              created_at: serverTimestamp(),
+            });
+          } catch {}
+          showToast('Signed up successfully. Verification email sent.');
+          handlePostLoginNavigate();
+          closeSection();
+        } catch(e){ showError(e.message); }
+      });
+
+      // Sign up with Google (same as login but from signup tab)
+      btnSignupGoogle?.addEventListener('click', async () => {
+        clearError();
+        const provider = new GoogleAuthProvider();
+        try { provider.setCustomParameters({ prompt: 'select_account' }); } catch {}
+        try {
+          const res = await signInWithPopup(auth, provider);
+          if (res.user) {
+            // Store user registration for Google signup
+            try {
+              await addDoc(collection(db, 'users_registration'), {
+                uid: res.user.uid,
+                email: res.user.email || null,
+                method: 'google',
+                consent: !!consentBox.checked,
+                created_at: serverTimestamp(),
+              });
+            } catch {}
+            showToast('Signed up with Google');
+            handlePostLoginNavigate();
+            closeSection();
+          }
+        } catch (err) {
+          if (err?.code === 'auth/popup-blocked') {
+            showError('Popup blocked. Please allow popups for this site and try again.');
+          } else if (err?.code === 'auth/popup-closed-by-user') {
+            showError('Popup closed before completing sign up.');
+          } else {
+            showError(err.message);
+          }
+        }
+      });
+
+      // Toast + navigate helper
+      function showToast(msg){
+        let t = document.getElementById('toast');
+        if (!t) {
+          t = document.createElement('div');
+          t.id = 'toast';
+          t.className = 'toast';
+          document.body.appendChild(t);
+        }
+        t.textContent = msg;
+        t.classList.add('show');
+        setTimeout(()=> t.classList.remove('show'), 2200);
+      }
+      function handlePostLoginNavigate(){
+        showToast('Signed in successfully');
+        if (pendingHash) {
+          const target = pendingHash; pendingHash = null;
+          // Navigate after a short delay for UX
+          setTimeout(()=> { window.location.hash = target; }, 300);
+        }
+      }
+
+      let pendingConsult = null;
+      async function submitConsult(data){
+        const payload = {
+          uid: auth.currentUser?.uid || null,
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          country: data.country,
+          course: data.course,
+          college: data.college,
+          consent: true,
+          created_at: serverTimestamp(),
+        };
+        await addDoc(collection(db, 'consultation_requests'), payload);
+      }
+      consultBtn?.addEventListener('click', async () => {
+        const name = (consultName?.value || '').trim();
+        const email = (consultEmail?.value || '').trim();
+        const phone = (consultPhone?.value || '').trim();
+        const country = consultCountry?.value || '';
+        const course = consultCourse?.value || '';
+        const college = consultCollege?.value || '';
+        if (!name || !email || !phone || !country || !course) { showToast('Please fill all required fields'); return; }
+        const data = { name, email, phone, country, course, college };
+        // Set loading UI
+        consultBtn.classList.add('loading');
+        consultBtn.disabled = true;
+        if (!auth.currentUser) {
+          pendingConsult = data;
+          openSection();
+          showToast('Please sign in to submit your request');
+          consultBtn.classList.remove('loading');
+          consultBtn.disabled = false;
+          return;
+        }
+        try {
+          await submitConsult(data);
+          showToast('Request submitted');
+          // Reset form
+          if (consultName) consultName.value = '';
+          if (consultEmail) consultEmail.value = '';
+          if (consultPhone) consultPhone.value = '';
+          if (consultCountry) consultCountry.selectedIndex = 0;
+          if (consultCourse) consultCourse.selectedIndex = 0;
+          if (consultCollege) consultCollege.selectedIndex = 0;
+        }
+        catch(e){ showToast('Failed to submit request'); }
+        finally {
+          consultBtn.classList.remove('loading');
+          consultBtn.disabled = false;
+        }
+      });
+
+      // User side panel wiring
+      function openUserPanel(){ userOverlay?.classList.add('open'); userPanel?.classList.add('open'); }
+      function closeUserPanel(){ userOverlay?.classList.remove('open'); userPanel?.classList.remove('open'); }
+      userBtn?.addEventListener('click', (e)=>{
+        e.preventDefault(); e.stopPropagation();
+        if (!auth.currentUser) {
+          // If signed out, open the auth section instead of side panel
+          openSection();
+          return;
+        }
+        if (userPanel?.classList.contains('open')) closeUserPanel(); else openUserPanel();
+      });
+      userOverlay?.addEventListener('click', closeUserPanel);
+      document.getElementById('user-panel-close')?.addEventListener('click', closeUserPanel);
+      userAvatar?.addEventListener('click', ()=>{ userPhotoInput?.click(); });
+      userPhotoInput?.addEventListener('change', (e)=>{
+        const f = e.target.files?.[0]; if (!f) return;
+        const url = URL.createObjectURL(f);
+        if (userAvatar) userAvatar.src = url;
+      });
+      logoutBtn?.addEventListener('click', async ()=>{
+        try { await (await import('https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js')).signOut(auth); }
+        catch {}
+        closeUserPanel();
+        showToast('Logged out');
+      });
+    </script>
+
+<!-- User side panel UI -->
+<div id="user-panel-overlay" class="user-panel-overlay"></div>
+<aside id="user-panel" class="user-panel" aria-hidden="true">
+  <div class="up-body">
+    <div class="up-top">
+      <div class="up-title">Account</div>
+      <button id="user-panel-close" class="user-menu-btn" aria-label="Close" title="Close"><span class="bars"></span></button>
+    </div>
+    <div class="user-row">
+      <img id="user-avatar" class="avatar" alt="Profile">
+      <div>
+        <div id="user-name">User</div>
+        <div id="user-email" style="opacity:.8; font-size: 14px;"></div>
+      </div>
+    </div>
+    <input id="user-photo-input" type="file" accept="image/*" style="display:none;" />
+
+    <div class="up-section">
+      <div class="up-section-title">Help Desk</div>
+      <div class="link-list">
+        <a href="https://wa.me/9779808899111" target="_blank" rel="noopener">Contact on WhatsApp +9779808899111</a>
+        <a href="mailto:abhiyanec@gmail.com">Email us @ abhiyanec@gmail.com</a>
+      </div>
+    </div>
+
+    <button id="logout-btn" class="logout-btn">Log out</button>
+  </div>
+</aside>
+
+<div id="toast" class="toast" aria-live="polite"></div>
+</body>
+</html>
+<script>
+  (function(){
+    var countrySel = document.getElementById('interested-country');
+    var dial = document.getElementById('dial-code');
+    var flag = document.getElementById('flag');
+    var collegeSel = document.getElementById('interested-college');
+
+    if(!countrySel || !dial || !flag || !collegeSel) return;
+
+    var map = {
+      'Australia': { code: '+61', flag: '🇦🇺' },
+      'Canada': { code: '+1', flag: '🇨🇦' },
+      'USA': { code: '+1', flag: '🇺🇸' },
+      'United Kingdom': { code: '+44', flag: '🇬🇧' },
+      'Germany': { code: '+49', flag: '🇩🇪' },
+      'India': { code: '+91', flag: '🇮🇳' },
+      'Nepal': { code: '+977', flag: '🇳🇵' },
+      'Ireland': { code: '+353', flag: '🇮🇪' },
+      'Japan': { code: '+81', flag: '🇯🇵' },
+      'Singapore': { code: '+65', flag: '🇸🇬' }
+    };
+
+    var colleges = {
+      'Australia': [
+        'Deakin University',
+        'RMIT University',
+        'Griffith University',
+        'Federation University',
+        'Western Sydney University'
+      ],
+      'Canada': [
+        'Seneca College',
+        'George Brown College',
+        'Humber College',
+        'Niagara College',
+        'Conestoga College'
+      ],
+      'USA': [
+        'California State University, East Bay',
+        'University of North Texas',
+        'Wichita State University',
+        'Portland State University',
+        'Western Michigan University'
+      ],
+      'United Kingdom': [
+        'University of Greenwich',
+        'Sheffield Hallam University',
+        'Coventry University',
+        'University of Portsmouth',
+        'Teesside University'
+      ],
+      'Germany': [
+        'FH Aachen University of Applied Sciences',
+        'University of Applied Sciences Würzburg-Schweinfurt',
+        'Darmstadt University of Applied Sciences',
+        'Hochschule Bremen',
+        'TH Köln'
+      ],
+      'Ireland': [
+        'Dublin City University',
+        'Technological University Dublin',
+        'Maynooth University',
+        'Griffith College Dublin',
+        'Cork Institute of Technology'
+      ],
+      'India': [
+        'CMR Institute of Technology, Bengaluru',
+        'New Horizon College of Engineering, Bengaluru',
+        'Reva University, Bengaluru',
+        'Jain (Deemed-to-be) University, Bengaluru',
+        'Ramaiah Institute of Technology, Bengaluru'
+      ],
+      'Nepal': [
+        'Kathmandu University',
+        'Pokhara University',
+        'Purbanchal University',
+        'Tribhuvan University',
+        'Mid-Western University'
+      ],
+      'Singapore': [
+        'Singapore Institute of Management',
+        'James Cook University Singapore',
+        'PSB Academy',
+        'Kaplan Singapore',
+        'Nanyang Academy of Fine Arts'
+      ],
+      'Japan': [
+        'Ritsumeikan Asia Pacific University',
+        'Sophia University',
+        'Ritsumeikan University',
+        'Tokai University',
+        'Chuo University'
+      ]
+    };
+
+    function updateDial(){
+      var v = countrySel.value;
+      if(map[v]){
+        dial.textContent = map[v].code;
+        flag.textContent = map[v].flag;
+      } else {
+        dial.textContent = '+';
+        flag.textContent = '🌐';
+      }
+      updateColleges(v);
+    }
+
+    function updateColleges(country){
+      var list = colleges[country] || [];
+      // clear
+      while (collegeSel.firstChild) collegeSel.removeChild(collegeSel.firstChild);
+      // placeholder
+      var ph = document.createElement('option');
+      ph.value = '';
+      ph.disabled = true;
+      ph.selected = true;
+      ph.textContent = 'Select College';
+      collegeSel.appendChild(ph);
+      // add options
+      list.forEach(function(name){
+        var opt = document.createElement('option');
+        opt.textContent = name;
+        collegeSel.appendChild(opt);
+      });
+      // Fallback if no country selected
+      if(!colleges[country]){
+        ['Select a country first'].forEach(function(name){
+          var opt = document.createElement('option');
+          opt.textContent = name;
+          opt.disabled = true;
+          collegeSel.appendChild(opt);
+        });
+      }
+    }
+
+    countrySel.addEventListener('change', updateDial);
+    // Initialize on load
+    updateDial();
+  })();
+</script>
+
