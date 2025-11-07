@@ -133,13 +133,49 @@ body, html {
   align-items: center;
   justify-content: center;
   z-index: 2100;
-  background:
-    radial-gradient(1200px 600px at 20% 10%, rgba(138, 43, 189, 0.35), transparent 70%),
-    radial-gradient(1200px 600px at 80% 90%, rgba(255, 0, 128, 0.25), transparent 70%),
-    rgba(0,0,0,0.55);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(2px);
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
 }
-.auth-section.open { display: flex; animation: fadeIn 200ms ease-out; }
+
+.auth-section.open {
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.close-auth {
+  position: absolute;
+  top: 50px;
+  right: 370px;
+  background: transparent;
+  border: none;
+  color: #c026d3;
+;
+  font-size: 28px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  z-index: 2101;
+}
+
+.close-auth:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.close-auth:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 179, 192, 0.5);
+}
 
 .auth-card {
   width: min(640px, 94vw);

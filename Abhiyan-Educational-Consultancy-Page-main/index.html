@@ -336,6 +336,7 @@
     </div>
     <!-- Account Access Section -->
     <section id="auth-section" class="auth-section">
+      <button class="close-auth" aria-label="Close">&times;</button>
       <div class="auth-card">
         <h2 class="auth-title">Access Your Account</h2>
         <p class="auth-desc">Login or create your account to continue your study abroad journey.</p>
@@ -444,6 +445,10 @@
         loginPanel.classList.toggle('hidden', id !== 'login-panel');
         signupPanel.classList.toggle('hidden', id !== 'signup-panel');
       }));
+
+      // Close button
+      const closeAuthBtn = document.querySelector('.close-auth');
+      closeAuthBtn?.addEventListener('click', closeSection);
 
       // Auth state controls visibility (auto-open when not signed in)
       onAuthStateChanged(auth, async (user) => {
